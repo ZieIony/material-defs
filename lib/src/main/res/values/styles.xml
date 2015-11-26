@@ -1,0 +1,120 @@
+<resources>
+
+    <style name="carbon_Theme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/carbon_grey_900</item>
+        <item name="colorPrimaryDark">@color/carbon_black</item>
+        <item name="colorAccent">@color/carbon_lime_a700</item>
+
+        <item name="android:textColorPrimary">@color/carbon_text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/carbon_text_secondary_dark</item>
+        <item name="android:textColorTertiary">@color/carbon_text_hint_dark</item>
+
+        <item name="android:textColorPrimaryInverse">@color/carbon_text_primary_light</item>
+        <item name="android:textColorSecondaryInverse">@color/carbon_text_secondary_light</item>
+        <item name="android:textColorTertiaryInverse">@color/carbon_text_hint_light</item>
+
+        <item name="carbon_colorBackground">@color/carbon_grey_800</item>
+        <item name="carbon_colorBackgroundInverse">@color/carbon_green_50</item>
+        <item name="carbon_dividerColor">@color/carbon_divider_dark</item>
+        <item name="carbon_rippleColor">@color/carbon_ripple_dark</item>
+        <item name="carbon_rippleColorInverse">@color/carbon_ripple_light</item>
+        <item name="carbon_iconColor">@color/carbon_icon_active_dark</item>
+        <item name="carbon_colorDisabled">@color/carbon_icon_inactive_dark</item>
+        <item name="colorControlNormal">@color/carbon_white_70</item>
+        <item name="android:colorControlHighlight">@color/carbon_ripple_light</item>
+
+        <item name="carbon_textAppearanceHeadline">@style/carbon_TextAppearance.Headline.Dark
+        </item>
+        <item name="carbon_textAppearanceTitle">@style/carbon_TextAppearance.Title.Dark</item>
+        <item name="carbon_textAppearanceSubhead">@style/carbon_TextAppearance.Subhead.Dark</item>
+        <item name="carbon_textAppearanceBody2">@style/carbon_TextAppearance.Body2.Dark</item>
+        <item name="carbon_textAppearanceBody1">@style/carbon_TextAppearance.Body1.Dark</item>
+        <item name="carbon_textAppearanceCaption">@style/carbon_TextAppearance.Caption.Dark</item>
+        <item name="carbon_textAppearanceButton">@style/carbon_TextAppearance.Button.Dark</item>
+        <item name="carbon_textAppearanceHeadlineInverse">
+            @style/carbon_TextAppearance.Headline.Light
+        </item>
+        <item name="carbon_textAppearanceTitleInverse">@style/carbon_TextAppearance.Title.Light
+        </item>
+        <item name="carbon_textAppearanceSubheadInverse">
+            @style/carbon_TextAppearance.Subhead.Light
+        </item>
+        <item name="carbon_textAppearanceBody2Inverse">@style/carbon_TextAppearance.Body2.Light
+        </item>
+        <item name="carbon_textAppearanceBody1Inverse">@style/carbon_TextAppearance.Body1.Light
+        </item>
+        <item name="carbon_textAppearanceCaptionInverse">
+            @style/carbon_TextAppearance.Caption.Light
+        </item>
+        <item name="carbon_textAppearanceButtonInverse">
+            @style/carbon_TextAppearance.Button.Light
+        </item>
+
+        <item name="android:windowBackground">@drawable/carbon_windowbackground_dark</item>
+        <item name="android:textColorHighlight">@color/carbon_lime_a700</item>
+    </style>
+
+    <style name="carbon_Theme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="carbon_Theme.Light" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/carbon_grey_300</item>
+        <item name="colorPrimaryDark">@color/carbon_grey_100</item>
+        <item name="colorAccent">@color/carbon_lime_a700</item>
+
+        <item name="android:textColorPrimary">@color/carbon_text_primary_light</item>
+        <item name="android:textColorSecondary">@color/carbon_text_secondary_light</item>
+        <item name="android:textColorTertiary">@color/carbon_text_hint_light</item>
+
+        <item name="android:textColorPrimaryInverse">@color/carbon_text_primary_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/carbon_text_secondary_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/carbon_text_hint_dark</item>
+
+        <item name="carbon_colorBackground">@color/carbon_white</item>
+        <item name="carbon_colorBackgroundInverse">@color/carbon_grey_800</item>
+        <item name="carbon_dividerColor">@color/carbon_divider_light</item>
+        <item name="carbon_rippleColor">@color/carbon_ripple_light</item>
+        <item name="carbon_rippleColorInverse">@color/carbon_ripple_dark</item>
+        <item name="carbon_iconColor">@color/carbon_icon_active_light</item>
+        <item name="carbon_colorDisabled">@color/carbon_icon_inactive_light</item>
+        <item name="colorControlNormal">@color/carbon_black_54</item>
+        <item name="android:colorControlHighlight">@color/carbon_ripple_light</item>
+
+        <item name="carbon_textAppearanceHeadline">@style/carbon_TextAppearance.Headline.Light
+        </item>
+        <item name="carbon_textAppearanceTitle">@style/carbon_TextAppearance.Title.Light</item>
+        <item name="carbon_textAppearanceSubhead">@style/carbon_TextAppearance.Subhead.Light</item>
+        <item name="carbon_textAppearanceBody2">@style/carbon_TextAppearance.Body2.Light</item>
+        <item name="carbon_textAppearanceBody1">@style/carbon_TextAppearance.Body1.Light</item>
+        <item name="carbon_textAppearanceCaption">@style/carbon_TextAppearance.Caption.Light</item>
+        <item name="carbon_textAppearanceButton">@style/carbon_TextAppearance.Button.Light</item>
+        <item name="carbon_textAppearanceHeadlineInverse">
+            @style/carbon_TextAppearance.Headline.Dark
+        </item>
+        <item name="carbon_textAppearanceTitleInverse">@style/carbon_TextAppearance.Title.Dark
+        </item>
+        <item name="carbon_textAppearanceSubheadInverse">
+            @style/carbon_TextAppearance.Subhead.Dark
+        </item>
+        <item name="carbon_textAppearanceBody2Inverse">@style/carbon_TextAppearance.Body2.Dark
+        </item>
+        <item name="carbon_textAppearanceBody1Inverse">@style/carbon_TextAppearance.Body1.Dark
+        </item>
+        <item name="carbon_textAppearanceCaptionInverse">
+            @style/carbon_TextAppearance.Caption.Dark
+        </item>
+        <item name="carbon_textAppearanceButtonInverse">@style/carbon_TextAppearance.Button.Dark
+        </item>
+
+        <item name="android:windowBackground">@drawable/carbon_windowbackground_light</item>
+        <item name="android:textColorHighlight">@color/carbon_lime_a700</item>
+    </style>
+
+    <style name="carbon_Theme.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
