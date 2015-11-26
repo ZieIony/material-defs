@@ -7,14 +7,16 @@
     <dimen name="carbon_margin">16dp</dimen>
     <dimen name="carbon_marginHalf">8dp</dimen>
 
+    <dimen name="carbon_iconSize">24dp</dimen>
+
     <dimen name="carbon_contentSpace">72dp</dimen>
 
     <dimen name="carbon_subtitleHeight">48dp</dimen>
 
     <dimen name="carbon_toolbarHeight">56dp</dimen>
     <dimen name="carbon_toolbarTextSize">20sp</dimen>
-    <dimen name="carbon_iconSize">48dp</dimen>
-    <dimen name="carbon_toolbarIconPadding">4dp</dimen>
+    <dimen name="carbon_toolbarItemSize">48dp</dimen>
+    <dimen name="carbon_toolbarItemPadding">4dp</dimen>
 
     <dimen name="carbon_listItemHeight">48dp</dimen>
     <dimen name="carbon_largeListItemHeight">72dp</dimen>
